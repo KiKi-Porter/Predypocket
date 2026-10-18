@@ -1,0 +1,17 @@
+name: predypocket
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy>=1.19,<1.24
+  - scipy>=1.4
+  - pandas>=1.0
+  - tqdm>=4.42
+  - pyyaml>=5.4
+  - mdtraj>=1.9.7
+  - netcdf4
+  - pip
+  - pip:
+      - tensorflow>=2.6,<2.10
+

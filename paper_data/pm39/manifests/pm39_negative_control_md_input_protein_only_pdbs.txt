@@ -1,0 +1,14 @@
+paper_data/pm39/md_inputs/protein_only/all/4hjkA.pdb
+paper_data/pm39/md_inputs/protein_only/all/1igdA.pdb
+paper_data/pm39/md_inputs/protein_only/all/2zhv.pdb
+paper_data/pm39/md_inputs/protein_only/all/5e4p.pdb
+paper_data/pm39/md_inputs/protein_only/all/2fd7A.pdb
+paper_data/pm39/md_inputs/protein_only/all/4tqlA.pdb
+paper_data/pm39/md_inputs/protein_only/all/2alpA.pdb
+paper_data/pm39/md_inputs/protein_only/all/1ammA.pdb
+paper_data/pm39/md_inputs/protein_only/all/4ape.pdb
+paper_data/pm39/md_inputs/protein_only/all/5uoj.pdb
+paper_data/pm39/md_inputs/protein_only/all/3gz0.pdb
+paper_data/pm39/md_inputs/protein_only/all/2oss.pdb
+paper_data/pm39/md_inputs/protein_only/all/5zn5.pdb
+paper_data/pm39/md_inputs/protein_only/all/5x8ua.pdb

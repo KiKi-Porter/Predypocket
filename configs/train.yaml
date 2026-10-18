@@ -1,0 +1,13 @@
+# Training (src/train_predypocket.py); settings reported in the manuscript
+dataset_csv: data/predypocket_dynamic/dataset.csv
+split_dir: paper_data/splits          # family-disjoint train/val/test (5,206 / 651 / 651)
+checkpoint: weights/pocketminer/pocketminer   # pretrained PocketMiner GVP-GNN encoder
+out_dir: runs/predypocket
+freeze_backbone: true                 # GVP-GNN encoder is kept frozen
+epochs: 10
+batch_size: 4
+eval_batch_size: 1
+learning_rate: 1.0e-4                 # Adam
+temporal_dim: 128
+dropout: 0.1
+seed: 42

@@ -1,0 +1,7 @@
+# Smoke test on the bundled synthetic example (no network access needed)
+dynamic_root: examples/dynamic_data_example
+out_dir: outputs/toy_prepared
+contact_cutoff: 4.5
+enable_rcsb: false                    # toy protein has no homologs; yields no positives
+workers: 1
+force: true

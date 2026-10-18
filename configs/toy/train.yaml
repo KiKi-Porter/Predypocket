@@ -1,0 +1,12 @@
+# One-epoch smoke training on the bundled synthetic example
+dataset_csv: outputs/toy_prepared/dataset.csv
+split_dir: examples/dynamic_data_example/split
+checkpoint: weights/pocketminer/pocketminer
+out_dir: outputs/toy_train
+freeze_backbone: true
+epochs: 1
+batch_size: 1
+eval_batch_size: 1
+learning_rate: 1.0e-4
+temporal_dim: 128
+dropout: 0.1

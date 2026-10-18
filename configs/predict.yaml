@@ -1,0 +1,8 @@
+# Inference (src/predypocket_predict.py)
+checkpoint: weights/predypocket_model # bundled trained PreDyPocket model
+temporal_dim: 128
+dropout: 0.1
+cluster_iterations: 8
+pocket_threshold: 0.6                 # residue-score cutoff for dynamic pockets
+pocket_ca_distance: 8.0               # C-alpha distance for spatial clustering (Angstrom)
+min_pocket_residues: 4                # minimum residues per dynamic pocket

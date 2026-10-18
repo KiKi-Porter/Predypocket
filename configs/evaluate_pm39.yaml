@@ -1,0 +1,7 @@
+# Residue-level evaluation on the cleaned PM39 benchmark (src/evaluate_pm39.py)
+labels: paper_data/pm39/manifests/pm39_residue_labels.csv
+cases: paper_data/pm39/manifests/pm39_cases.csv
+split: all                            # all, val or test
+predictions_dir: outputs/pm39         # <case_id>_scores.csv from predypocket_predict.py
+threshold: 0.6                        # recall / specificity threshold
+out_json: outputs/pm39_metrics.json

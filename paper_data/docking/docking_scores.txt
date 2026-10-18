@@ -1,0 +1,297 @@
+PreDyPocket / CpuPDB pocket-similarity retrieval: docking results for the ten query systems
+Docking: AutoDock Vina 1.2.7, rigid receptor, flexible ligand, exhaustiveness 64, num_modes 20, energy_range 5.0 kcal/mol;
+box centered on the pocket, extended 5 A in each dimension, minimum side length 12 A. Scores in kcal/mol (more negative = more favorable).
+native_crystal_score = Vina score of the original crystallographic receptor-ligand coordinates (no redocking)
+native_redocking_score = best score after redocking the native ligand into its crystallographic receptor (primary reference)
+redocking_rmsd = RMSD (A) between the redocked and crystallographic native-ligand poses
+retrieved = 20 receptor pockets returned by CpuPDB pocket-similarity retrieval; random = 3 control pockets drawn at random from the experimental layer
+
+[1DYR]
+native_crystal_score: -6.502
+native_redocking_score: -7.112
+redocking_rmsd: 0.112
+group	receptor	best_docking_score
+retrieved	7MXY	-7.682
+retrieved	4BB5	-7.048
+retrieved	1XU3	-1.543
+retrieved	8JM6	-7.147
+retrieved	4FJ2	-8.538
+retrieved	4Q1D	-7.052
+retrieved	5XDQ	-7.468
+retrieved	3V94	-7.687
+retrieved	5KQ2	-7.596
+retrieved	7W8N	-7.384
+retrieved	6P2B	-7.103
+retrieved	8TR6	-7.427
+retrieved	4LS7	-7.372
+retrieved	7THU	-7.306
+retrieved	7B61	-7.366
+retrieved	3VKA	-7.692
+retrieved	7B6L	-7.781
+retrieved	4ZXW	-7.247
+retrieved	4KVL	-6.453
+retrieved	4C71	-7.938
+random	random_1	-6.157
+random	random_2	-5.246
+random	random_3	-4.632
+
+[1T7I]
+native_crystal_score: -9.062
+native_redocking_score: -9.331
+redocking_rmsd: 0.360
+group	receptor	best_docking_score
+retrieved	1DAJ	-9.178
+retrieved	1AL8	-7.726
+retrieved	1BWC	-8.624
+retrieved	1D4S	-9.053
+retrieved	1DJL	-7.873
+retrieved	1D6S	-5.847
+retrieved	1D6K	-4.932
+retrieved	1DEH	-8.714
+retrieved	1C1D	-8.563
+retrieved	1DBT	-2.587
+retrieved	13PK	-7.268
+retrieved	1A3G	-7.023
+retrieved	1CZA	-6.766
+retrieved	1A71	-8.774
+retrieved	1DII	-8.127
+retrieved	1B37	-9.607
+retrieved	1CC6	-9.316
+retrieved	1AN9	-9.413
+retrieved	1CJ3	-8.947
+retrieved	1DAA	-9.324
+random	random_1	-6.857
+random	random_2	-5.503
+random	random_3	-2.247
+
+[2H42]
+native_crystal_score: -8.390
+native_redocking_score: -8.595
+redocking_rmsd: 0.148
+group	receptor	best_docking_score
+retrieved	7MT6	-6.069
+retrieved	1LPS	-7.623
+retrieved	5LK9	-8.654
+retrieved	7KD8	-8.355
+retrieved	4BB5	-9.365
+retrieved	7MEU	-7.550
+retrieved	6WP9	-5.827
+retrieved	6NEH	-7.104
+retrieved	7P4F	-9.077
+retrieved	3UIC	-9.216
+retrieved	8JM8	-9.009
+retrieved	6W70	-9.831
+retrieved	8FYN	-9.484
+retrieved	5D7P	-8.676
+retrieved	5WGX	-9.581
+retrieved	6P29	-5.710
+retrieved	5NM4	-9.604
+retrieved	6LPK	-9.550
+retrieved	5Y5S	-8.139
+retrieved	2FYU	-9.043
+random	random_1	-6.710
+random	random_2	-6.182
+random	random_3	-5.381
+
+[8QYR]
+native_crystal_score: -6.622
+native_redocking_score: -7.331
+redocking_rmsd: 0.433
+group	receptor	best_docking_score
+retrieved	5QR2	-6.495
+retrieved	6RX0	-7.554
+retrieved	5U6N	-6.629
+retrieved	6ALJ	-8.099
+retrieved	6OM8	-8.053
+retrieved	1AH3	-8.932
+retrieved	2EVS	-7.630
+retrieved	4I5M	-7.377
+retrieved	5I3P	-6.658
+retrieved	9BFG	-7.772
+retrieved	6O7N	-7.954
+retrieved	4YJG	-8.550
+retrieved	7YKN	-8.299
+retrieved	5IL1	-7.338
+retrieved	8C6F	-8.821
+retrieved	8QYE	-8.233
+retrieved	6L1O	-7.822
+retrieved	6ZE6	-8.294
+retrieved	5D4V	-7.854
+retrieved	1H1O	-8.480
+random	random_1	-7.440
+random	random_2	-6.550
+random	random_3	-6.220
+
+[5KSI]
+native_crystal_score: -4.656
+native_redocking_score: -6.768
+redocking_rmsd: 1.253
+group	receptor	best_docking_score
+retrieved	2HHE	-7.808
+retrieved	5CX7	-7.806
+retrieved	7DY4	-7.927
+retrieved	1BZ1	-7.990
+retrieved	3SJL	-7.549
+retrieved	7OHD	-7.570
+retrieved	5NVI	-7.922
+retrieved	8WUB	-7.852
+retrieved	4N4M	-8.215
+retrieved	1Y5J	-7.839
+retrieved	3WCP	-7.889
+retrieved	8VYL	-7.914
+retrieved	4IAM	-7.853
+retrieved	4IAZ	-6.547
+retrieved	7YQ7	-3.822
+retrieved	5V2C	-5.560
+retrieved	2CVC	-7.095
+retrieved	5IXR	-7.702
+retrieved	6QKN	-7.514
+retrieved	1H1O	-7.699
+random	random_1	-4.827
+random	random_2	-5.311
+random	random_3	-4.231
+
+[8JYC]
+native_crystal_score: -7.052
+native_redocking_score: -7.161
+redocking_rmsd: 0.609
+group	receptor	best_docking_score
+retrieved	6QU3	-5.882
+retrieved	8Q6R	-6.718
+retrieved	1S6F	-7.206
+retrieved	8HD8	-6.376
+retrieved	3UYL	-6.129
+retrieved	5G6U	-5.105
+retrieved	4HMX	-5.624
+retrieved	6RCK	-6.885
+retrieved	8KA4	-5.879
+retrieved	1F0P	-3.940
+retrieved	3UGW	-5.479
+retrieved	8IZE	-4.697
+retrieved	3SE9	-4.986
+retrieved	1UA3	-6.884
+retrieved	1NJC	-7.348
+retrieved	4ARN	-7.084
+retrieved	3UVK	-3.537
+retrieved	3UEA	-6.445
+retrieved	7GK9	-7.622
+retrieved	1SYO	-4.640
+random	random_1	-6.210
+random	random_2	-3.009
+random	random_3	-5.209
+
+[6XDT]
+native_crystal_score: -6.241
+native_redocking_score: -7.198
+redocking_rmsd: 0.262
+group	receptor	best_docking_score
+retrieved	4L38	-7.612
+retrieved	7UF7	-7.842
+retrieved	5W0H	-7.098
+retrieved	8WJ1	-7.721
+retrieved	4N11	-4.621
+retrieved	1RVW	-9.782
+retrieved	1V75	-7.766
+retrieved	7JJQ	-8.051
+retrieved	1HGB	-7.588
+retrieved	4L3X	-7.576
+retrieved	4L3Y	-9.479
+retrieved	5B84	-7.911
+retrieved	1M9P	-8.272
+retrieved	6ZMY	-7.716
+retrieved	5EUI	-7.758
+retrieved	1V4X	-7.736
+retrieved	5URC	-9.317
+retrieved	7N8O	-5.580
+retrieved	4L3Z	-7.682
+retrieved	8F4E	-6.932
+random	random_1	-7.211
+random	random_2	-5.986
+random	random_3	-5.912
+
+[1IX3]
+native_crystal_score: -8.623
+native_redocking_score: -9.989
+redocking_rmsd: 0.201
+group	receptor	best_docking_score
+retrieved	6M31	-4.916
+retrieved	4QWT	-6.421
+retrieved	7YJ7	-8.310
+retrieved	6PR4	-8.739
+retrieved	1XJZ	-10.250
+retrieved	7YJ9	-7.344
+retrieved	7PJN	-8.456
+retrieved	1DXR	-4.684
+retrieved	7OVD	-6.752
+retrieved	7NGE	-10.120
+retrieved	6TEN	-9.534
+retrieved	3WBG	-7.319
+retrieved	1NF6	-9.263
+retrieved	8F4G	-5.245
+retrieved	6E35	-9.768
+retrieved	6PNH	-9.908
+retrieved	8AZZ	-8.408
+retrieved	5ADK	-9.773
+retrieved	6E7U	-6.707
+retrieved	6IUA	-9.127
+random	random_1	-6.227
+random	random_2	-7.191
+random	random_3	-7.419
+
+[4GWE]
+native_crystal_score: -4.718
+native_redocking_score: -6.117
+redocking_rmsd: 1.040
+group	receptor	best_docking_score
+retrieved	6F4K	-7.460
+retrieved	8Z2G	-6.597
+retrieved	7SPT	-6.754
+retrieved	1IYK	-6.831
+retrieved	1J96	-9.525
+retrieved	7R3C	-8.578
+retrieved	6KVZ	-4.532
+retrieved	5OXM	-6.540
+retrieved	7DJI	-5.383
+retrieved	4GQ0	-8.975
+retrieved	2BGC	-4.575
+retrieved	7NDP	-8.157
+retrieved	5TIS	-6.910
+retrieved	8F4I	-5.542
+retrieved	4JQ1	-8.932
+retrieved	8R41	-8.080
+retrieved	7RYW	-4.063
+retrieved	4LER	-4.235
+retrieved	4GXM	-10.970
+retrieved	5T1S	-1.943
+random	random_1	-3.007
+random	random_2	-4.162
+random	random_3	-2.122
+
+[6PR7]
+native_crystal_score: -8.202
+native_redocking_score: -9.090
+redocking_rmsd: 0.502
+group	receptor	best_docking_score
+retrieved	1A0G	-5.972
+retrieved	1DAD	-8.109
+retrieved	1B04	-8.243
+retrieved	1AN9	-7.988
+retrieved	1DG7	-8.377
+retrieved	1BWC	-8.556
+retrieved	1D08	-8.776
+retrieved	1CYD	-8.117
+retrieved	1D4L	-6.686
+retrieved	1A3G	-6.320
+retrieved	1C1D	-8.169
+retrieved	1DJQ	-9.360
+retrieved	1DAJ	-9.149
+retrieved	1DMP	-4.851
+retrieved	1CER	-8.166
+retrieved	1DAA	-6.177
+retrieved	1BGA	-8.301
+retrieved	1D4S	-9.279
+retrieved	1DGY	-7.290
+retrieved	1BNQ	-7.259
+random	random_1	-6.057
+random	random_2	-5.148
+random	random_3	-7.149

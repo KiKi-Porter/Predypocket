@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+*.conda
+
+# Data and generated artifacts
+data/
+outputs/
+runs/
+logs/
+*.log
+
+# Model checkpoints are included in this release.
+models/
+*.ckpt*
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Third-party PocketMiner weights (download with scripts/download_pocketminer_weights.sh)
+weights/pocketminer/

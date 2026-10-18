@@ -1,0 +1,11 @@
+# Feature and label preparation (src/prepare_predypocket_data.py)
+dynamic_root: dynamic_data            # dynamic_data/<entry_id>/<system_id>/
+out_dir: data/predypocket_dynamic     # features/, labels/, metadata/, dataset.csv
+cluster_iterations: 8                 # k-medoids refinement per 3:3:4 segment
+contact_cutoff: 4.5                   # heavy-atom contact cutoff (Angstrom)
+enable_rcsb: true                     # homolog-derived positive labels from RCSB
+homolog_identity: 0.70                # minimum sequence identity
+homolog_coverage: 0.80                # minimum query-sequence coverage
+max_homologs: 5                       # homologous structures per target
+workers: 8
+worker_timeout: 1200

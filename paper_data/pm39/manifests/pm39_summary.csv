@@ -1,0 +1,4 @@
+split,structures,positive_structures,negative_control_structures,positive_residues,negative_residues,masked_residues,eval_residues,residue_count_mismatches
+val,23,19,4,412,301,4845,713,0
+test,32,22,10,505,1172,7651,1677,0
+all,55,41,14,917,1473,12496,2390,0

@@ -1,0 +1,14 @@
+paper_data/pm39/md_inputs/all/4hjkA.pdb
+paper_data/pm39/md_inputs/all/1igdA.pdb
+paper_data/pm39/md_inputs/all/2zhv.pdb
+paper_data/pm39/md_inputs/all/5e4p.pdb
+paper_data/pm39/md_inputs/all/2fd7A.pdb
+paper_data/pm39/md_inputs/all/4tqlA.pdb
+paper_data/pm39/md_inputs/all/2alpA.pdb
+paper_data/pm39/md_inputs/all/1ammA.pdb
+paper_data/pm39/md_inputs/all/4ape.pdb
+paper_data/pm39/md_inputs/all/5uoj.pdb
+paper_data/pm39/md_inputs/all/3gz0.pdb
+paper_data/pm39/md_inputs/all/2oss.pdb
+paper_data/pm39/md_inputs/all/5zn5.pdb
+paper_data/pm39/md_inputs/all/5x8ua.pdb
