@@ -8,7 +8,7 @@ spatially grouped into dynamic pockets. PreDyPocket builds the dynamic layer of
 
 > Tang, K.; Zhang, X.; Duan, Z.; Lui, D.; Li, H.; Zhu, W.; Zeng, L.; Hu, C.; Liao, J.
 > CpuPDB: A Conformational Pocket-Universe Database Integrating Experimental, Dynamic
-> and Predicted Binding-Site Evidence. *J. Chem. Inf. Model.* (in revision).
+> and Predicted Binding-Site Evidence. *J. Chem. Inf. Model.* .
 
 ![PreDyPocket architecture](docs/predypocket_architecture.png)
 
@@ -44,9 +44,7 @@ For each MD trajectory, PreDyPocket
    through a learnable gate;
 6. scores every residue with a residue classifier.
 
-Residues with scores ≥ 0.6 are clustered into dynamic pockets (Cα distance ≤ 8 Å,
-at least four residues). Equation numbers in the manuscript Methods (eqs 1–12) follow
-the same order.
+
 
 ## Repository layout
 
@@ -79,7 +77,7 @@ Tested with Python 3.9, TensorFlow 2.9.1, MDTraj 1.10.1, NumPy 1.23.5, SciPy 1.1
 and PyYAML 6.0 on Linux and Windows. Inference runs on CPU; training on GPU is recommended.
 
 ```bash
-git clone https://github.com/KiKi-Porter/predypocket-model.git
+git clone https://github.com/KiKi-Porter/Predypocket.git
 cd predypocket-model
 conda env create -f environment.yml
 conda activate predypocket
@@ -96,8 +94,6 @@ python -m unittest discover -s tests
 ```
 
 ## Quick start
-
-The bundled toy system runs in about a minute and needs no network access.
 
 ```bash
 # 1. sample the ten 3:3:4 representative frames
@@ -130,16 +126,11 @@ and topology are needed. The processed CpuPDB trajectories are available at
 
 ## Residue labels
 
-Labels are built from experimentally observed ligand-contact sites and are used only as training targets; they are never model inputs.
-
 | Label | Class | Definition | Loss and AUROC/AUPRC |
 |:---:|---|---|---|
 | 1 | positive | residue mapped from a ligand-contact site (heavy-atom distance ≤ 4.5 Å) in a homologous protein–ligand structure from the RCSB PDB (sequence identity ≥ 70%, query coverage ≥ 80%, up to five structures) | included |
 | 0 | negative | any other mapped residue | included |
 | −1 | masked | residue within 4.5 Å of the ligand retained in the simulated complex (resident ligand), unmapped residue, or residue meeting both the resident-contact and homolog criteria | excluded |
-
-Labels are written to `<out_dir>/labels/paper/<sample_id>.npy`. RCSB search results and
-downloaded structures are cached in `<out_dir>/rcsb_cache`, so repeated runs are offline.
 
 ## Inference
 
@@ -158,11 +149,9 @@ To point at files directly, replace `--system-dir` with
 | `<prefix>_selected_frames.npy` | indices of the ten selected frames |
 | `<prefix>_residue_keys.npy` | residue identifiers |
 
-Scores are residue-level model outputs, not calibrated binding probabilities.
-
 ## Training
 
-**1. Download the pretrained encoder** (PocketMiner; used for initialization only)
+**1. Download the pretrained encoder**
 
 ```bash
 bash scripts/download_pocketminer_weights.sh
@@ -181,14 +170,7 @@ frozen. A checkpoint is saved after every epoch in `runs/predypocket/`, together
 `history.csv` (training loss and validation loss, AUROC and AUPRC), `best_epoch.txt`,
 `training_config.json` and `test_metrics.json`.
 
-Multi-GPU training: set `CUDA_VISIBLE_DEVICES` and add `--manual-gpu-replicas`
-(`batch_size` must be divisible by the number of GPUs). If very large proteins exceed
-GPU memory, `--max-residues N` skips systems with more than N residues.
-
 ## Parameter files
-
-Every command accepts `--config file.yaml`. Keys are the long option names written with
-underscores; any option given on the command line overrides the file:
 
 ```bash
 python src/train_predypocket.py --config configs/train.yaml --epochs 20 --out-dir runs/test
@@ -251,8 +233,4 @@ python src/evaluate_pm39.py --config configs/evaluate_pm39.yaml
 ## Citation, license and acknowledgements
 
 If you use PreDyPocket or CpuPDB, please cite the paper above. The code is released under
-the MIT License. PreDyPocket reuses the GVP-GNN encoder of PocketMiner
-(Meller *et al.*, *Nat. Commun.* 2023, 14, 1177). MD trajectories include systems from MISATO
-(Siebenmorgen *et al.*, *Nat. Comput. Sci.* 2024, 4, 367–378).
-
-This software is intended for research use and is not a clinical or diagnostic tool.
+the MIT License.
