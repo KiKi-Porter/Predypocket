@@ -78,7 +78,7 @@ and PyYAML 6.0 on Linux and Windows. Inference runs on CPU; training on GPU is r
 
 ```bash
 git clone https://github.com/KiKi-Porter/Predypocket.git
-cd predypocket-model
+cd Predypocket
 conda env create -f environment.yml
 conda activate predypocket
 ```
