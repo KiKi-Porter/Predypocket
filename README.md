@@ -6,7 +6,7 @@ from short molecular dynamics (MD) trajectories into residue-level scores, which
 spatially grouped into dynamic pockets. PreDyPocket builds the dynamic layer of
 [CpuPDB](https://www.cpupdb.com), a conformational pocket-universe database.
 
-> Tang, K.; Zhang, X.; Duan, Z.; Lui, D.; Li, H.; Zhu, W.; Zeng, L.; Hu, C.; Liao, J.
+> Tang, K.; Zhang, X.; Duan, Z.; Liu, D.; Li, H.; Zhu, W.; Zeng, L.; Hu, C.; Liao, J.
 > CpuPDB: A Conformational Pocket-Universe Database Integrating Experimental, Dynamic
 > and Predicted Binding-Site Evidence. *J. Chem. Inf. Model.* .
 
